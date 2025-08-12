@@ -73,56 +73,92 @@ closure function
 // console.log(ans.long());
 // console.log(ans.short());
 
-
-
-
 /*==================================== Question No 4 =========================================
-
+closure function
 ======================================= Answer =====================================*/
-function addition(){let a = 20;
-    let b = 10;
-   return function output(){let ans = a + b;
-        return ans;
-    }
-}
-let final = addition();
-console.log(final())
+// function addition(){let a = 20;
+//     let b = 10;
+//    return function output(){let ans = a + b;
+//         return ans;
+//     }
+// }
+// let final = addition();
+// console.log(final())
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 5 =========================================
+render each index after one second continuously
 ======================================= Answer =====================================*/
+// let words = ['a','b','c','d','e'];
+// let display = document.getElementById('display')
+// let index = 0 ;
+// setInterval(function()  {
+//     display.innerHTML = words[index];
+//     index++; 
+//     if(index >= words.length){index = 0;}
+    
+// }, 1000);
 
 
 
+/*==================================== Question No 6 =========================================
+You have an array of numbers:
 
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+let numbers = [10, 20, 30, 40, 50];
+Write JavaScript code that shows one number at a time inside an element with id "output".
+The numbers should change every 2 seconds in the same order as they appear in the array.
+After reaching the last number, it should start again from the first number.
 ======================================= Answer =====================================*/
 
+// let numbers = [10, 20, 30, 40, 50];
+// let display = document.getElementById('display');
+// let index = 0;
+
+// setInterval(function() {
+//     display.textContent = numbers[index];
+//     index++;
+//     if (index >= numbers.length) {
+//         index = 0; // reset to start
+//     }
+// }, 2000);
 
 
+/*==================================== Question No 7 =========================================
+let colors = ['red', 'green', 'blue', 'yellow'];
+Show one color name at a time inside an element with id "colorDisplay".
+The text should change every 1 second and loop back to the first color after the last one.
 
+Expected behavior:
 
-/*==================================== Question No 1 =========================================
-
+"red" → "green" → "blue" → "yellow" → then back to "red" continuously.
 ======================================= Answer =====================================*/
+// let colors = ['red', 'green', 'blue', 'yellow'];
+// let display = document.getElementById('colorDisplay');
+// let index = 0;
+// setInterval(() => {
+//     display.textContent = colors[index];
+//     index++;
+//     if(index >=colors.length){index = 0;}
+    
+// }, 1000);
 
+
+/*==================================== Question No 8 =========================================
+let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+Display one day at a time inside an element with id "dayDisplay".
+The text should change every 3 seconds in order and loop forever.
+
+Expected behavior:
+
+"Monday" → "Tuesday" → "Wednesday" → … → "Sunday" → back to "Monday".
+======================================= Answer =====================================*/
+// let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+// let display = document.getElementById('dayDisplay');
+// let index = 0;
+// setInterval(function(){display.innerText = days[index];
+//     console.log(days[index])
+//     index++;
+//     if(index >= days.length){index = 0;}
+// },2000)
 
 
 
