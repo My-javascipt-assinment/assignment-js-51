@@ -163,26 +163,56 @@ Expected behavior:
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 9 =========================================
+cosecutivs letter counter
+======================================= Answer =====================================*/
+// function pro(){let input = document.getElementById('input').value;
+//     let display = document.getElementById('display');
+//     let result = '';
+//     let count = 1;
+//     for(let i = 0; i < input.length; i++){if(input[i]=== input[i + 1]){count++;}
+// else{result = result + count + input[i];
+//     count =1;
+// }}
+// display.innerHTML = result;
+// }
+
+/*==================================== Question No 10 =========================================
+count repeated values in array
+======================================= Answer =====================================*/
+// let fruits = ['apple','mango','apple','orange','orange','lemon','apple'];
+// // first arrange values alphabetically ascending order by sort()
+// fruits.sort();
+// let result = '';
+// let count = 1;
+// for(let i = 0; i < fruits.length;i++){if(fruits[i]=== fruits[i + 1]){count++}
+// else{
+//     result = result + `${fruits[i]} : ${count} |`;
+// // reset count for next
+//     count = 1;
+   
+// }}
+// console.log(result)
+
+
+
+/*==================================== Question No 11 =========================================
 
 ======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
+//  let str = ' my name was Name is aziz is khan';
+//      str = str.trim();
+//      str = str.toLowerCase()
+//  let convert = str.split(' ');
+//  console.log(convert)
+//   convert.sort();
+//   console.log(convert)
+//  let result = '';
+//  let count = 1;
+//  for(let i = 0 ; i < convert.length;i++){if(convert[i] === convert[i + 1]){count++;}
+// else{result = result + `${convert[i]} → ${count} \n`;
+// count = 1;}
+// }
+// console.log(result)
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
