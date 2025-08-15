@@ -620,127 +620,89 @@ add digits
 mask a number by repeat()
 ======================================= Answer =====================================*/
 // 
-let nic = '38301-3566676-3';
-let firstPart = nic.slice(0,5);
-console.log(firstPart);
-let center = nic.slice(5,14);
-console.log(center);
-let last = nic.slice(-1);
-console.log(last);
-let str = '*'.repeat(9);
-console.log(str);
-let jonAll = firstPart + str + last;
-console.log(jonAll)
+// let nic = '38301-3566676-3';
+// let firstPart = nic.slice(0,5);
+// console.log(firstPart);
+// let center = nic.slice(5,14);
+// console.log(center);
+// let last = nic.slice(-1);
+// console.log(last);
+// let str = '*'.repeat(9);
+// console.log(str);
+// let jonAll = firstPart + str + last;
+// console.log(jonAll)
 
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 47 =========================================
+object()
 ======================================= Answer =====================================*/
+// const student = {name : 'Aziz',
+//     age : 30,
+//     course : 'web development'
+// }
+// console.log(student);
+// delete student.name; 
+// student.age = 40;
+// console.log(student)
+// let check = student.hasOwnProperty('name');
+// console.log(check)
+// console.log(Object.keys(student).length)
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 48 =========================================
+Anonymous function
 ======================================= Answer =====================================*/
+// const anyony = function(){console.log('hello')}
+// anyony();
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 49 =========================================
+remove duplicate values of array
 ======================================= Answer =====================================*/
+// let arr = [2,3,3,6,6,7,8,8,9];
+// function remover(arr){let newArray = new Set(arr);
+//     newArray = [...newArray]
+//     return newArray;
+// }
+// let ans = remover(arr)
+// console.log(ans)
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 50 =========================================
+new Set( )
 ======================================= Answer =====================================*/
+let basket = new Set();
+console.log(basket);
+basket.add('apple');
+basket.add('mango');
+basket.add('apple');
+console.log(basket);
+console.log(basket.has('apple'))
+basket.delete('banana')
+
+console.log(basket);
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 51 =========================================
+remove duplicate values form an array and give unique array
 ======================================= Answer =====================================*/
+let numbers = [1, 2, 2, 3, 4, 4, 5];
+let unique = []; // empty array to store unique values
 
-/*==================================== Question No 1 =========================================
+for (let i = 0; i < numbers.length; i++) {
+    if (!unique.includes(numbers[i])) { // if value not already inside
+        unique.push(numbers[i]);       // add it
+    }
+}
 
+console.log(unique); // [1, 2, 3, 4, 5]
+
+/*==================================== Question No 52 =========================================
+give unique array 
 ======================================= Answer =====================================*/
+// let num = ['a','b','a','z','z','m'];
+// let uniquee = [];
+// for(let i = 0 ;i < num.length;i++){if(!uniquee.includes(num[i])){uniquee.push(num[i])}}
+// console.log(uniquee)
 
 
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
