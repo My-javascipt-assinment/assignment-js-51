@@ -604,30 +604,33 @@ compare two array are equal by value or not
 
 
 /*==================================== Question No 45 =========================================
-
+add digits
 ======================================= Answer =====================================*/
 
-// let num = 123;
-// num = String(num);
-// let sum = 0;
-// for(let i = 0; i < num.length;i++){ 
-//     // sum = sum + Number(String(num)[i])
-//     sum = sum +Number(num[i])
-// }
-// console.log(sum)
-let num = 12345;
-num = String(num)
-    //  num = num.split('');
-    //  console.log(num);
-     let sum = 0; 
-     for(let i = 0; i < num.length;i++)
-{let b = Number(num[i])
-    sum = sum + b}
-     console.log(sum)
-/*==================================== Question No 1 =========================================
-
+// let num = 12345;
+// num = String(num)
+//     //  num = num.split('');
+//     //  console.log(num);
+//      let sum = 0; 
+//      for(let i = 0; i < num.length;i++)
+// {let b = Number(num[i])
+//     sum = sum + b}
+//      console.log(sum)
+/*==================================== Question No 46 =========================================
+mask a number by repeat()
 ======================================= Answer =====================================*/
-
+// 
+let nic = '38301-3566676-3';
+let firstPart = nic.slice(0,5);
+console.log(firstPart);
+let center = nic.slice(5,14);
+console.log(center);
+let last = nic.slice(-1);
+console.log(last);
+let str = '*'.repeat(9);
+console.log(str);
+let jonAll = firstPart + str + last;
+console.log(jonAll)
 
 
 
